@@ -1,6 +1,10 @@
+// @ts-check
+
+/**
+ * @type {import('@nrwl/react/module-federation').ModuleFederationConfig}
+ **/
 const moduleFederationConfig = {
-  name: 'catalog',
-  remotes: ['recommendations'],
+  name: 'recommendations',
   exposes: {
     './Module': './src/remote-entry.ts',
   },
