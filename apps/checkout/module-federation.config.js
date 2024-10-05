@@ -1,7 +1,7 @@
 const moduleFederationConfig = {
   name: 'checkout',
   exposes: {
-    './Module': './src/app/app.tsx',
+    './Module': './src/remote-entry.ts',
   },
 };
 
