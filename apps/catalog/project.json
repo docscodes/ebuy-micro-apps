@@ -13,7 +13,7 @@
         "outputPath": "dist/apps/catalog",
         "index": "apps/catalog/src/index.html",
         "baseHref": "/",
-        "main": "apps/catalog/src/main.tsx",
+        "main": "apps/catalog/src/main.ts",
         "polyfills": "apps/catalog/src/polyfills.ts",
         "tsConfig": "apps/catalog/tsconfig.app.json",
         "assets": ["apps/catalog/src/favicon.ico", "apps/catalog/src/assets"],
