@@ -5,6 +5,7 @@
  **/
 const moduleFederationConfig = {
   name: 'recommendations',
+  remotes: ['store'],
   exposes: {
     './Module': './src/remote-entry.ts',
   },
