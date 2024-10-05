@@ -23,4 +23,5 @@ export function App() {
     </React.Suspense>
   );
 }
+
 export default App;

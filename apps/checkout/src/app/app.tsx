@@ -1,4 +1,3 @@
-import { Header } from '@ebuy-micro-apps/ui';
 import { Container, Header as Text } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import ShoppingBasket from './basket';
@@ -29,7 +28,6 @@ export function App() {
 
   return (
     <Container style={{ marginTop: '5rem' }}>
-      <Header />
       <Text size="huge">Checkout</Text>
       <ShoppingBasket basketList={completeBasket} />
     </Container>
